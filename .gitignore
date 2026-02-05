@@ -1,0 +1,9 @@
+.obsidian/*
+
+주식/
+학교/
+another/
+
+.DS_Store
+Thumbs.db
+*.log

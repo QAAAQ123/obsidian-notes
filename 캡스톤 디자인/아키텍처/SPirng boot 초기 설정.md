@@ -1,0 +1,1 @@
+https://start.spring.io/#!type=gradle-project&language=java&platformVersion=4.0.0&packaging=jar&configurationFileFormat=properties&jvmVersion=17&groupId=com.example&artifactId=IncheonMate&name=IncheonMate&description=CodeCreaft%20Capstone%20Design&packageName=com.example.IncheonMate&dependencies=web,lombok,security,oauth2-client,data-mongodb,validation,configuration-processor
