@@ -1,0 +1,6 @@
+- **User:** `fork()` 호출
+- **Libc:** `EAX`에 **2** 저장 → `int 0x80`으로 인터럽트 발생
+- **IDT:** `0x80`번을 통해 `System_call()` 핸들러로 진입
+- **Table:** `sys_call_table`에서 `EAX` 값(2)에 해당하는 `sys_fork()` 주소 확인
+- **Kernel:** `sys_fork()` 실행
+- Libc:standard C Libraries
